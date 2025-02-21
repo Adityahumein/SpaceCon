@@ -11,7 +11,6 @@
     flex-wrap: wrap;  /* Allow wrapping on smaller screens */
     height: 100%;
     overflow-x: hidden;
-
 }
 
 .Ourstory-img {
@@ -34,7 +33,7 @@
     flex: 1;
     border-width: 30px;
     border-style: solid;
-    border-image: url("../src/assets/Ourstory-border.png") 30;
+
     border-image-slice: 190;
     border-image-repeat: stretch;
     padding: 10px;
