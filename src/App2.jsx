@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './App2.css'
-import Imageslider from './components/Imageslider'
-import Descriptiontext from './components/Descriptiontext'
-import Ourstory from './components/Ourstory'
+import Imageslider from './Components/Imageslider'
+import Descriptiontext from './Components/Descriptiontext'
+import Ourstory from './Components/Ourstory'
 
 function App2() {
   const [count, setCount] = useState(0)
