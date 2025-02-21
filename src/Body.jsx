@@ -45,7 +45,9 @@ const Body = () => {
             
             <div className='Cluster2'style={{backgroundImage:`url(${img1})`,backgroundAttachment:"fixed",backgroundPosition:"center",backgroundSize:"cover",minHeight:"100vh",width:"100vw"}}>
                 <motion.img animate={{top:0}} transition={{duration:3}} src={ufo} className='ufo'/>
-                
+                <div className='ad'>
+                    <h1 className='ad1'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut quod totam quasi in! Odit labore eligendi architecto enim, libero tempore?</h1>
+                </div>
                 <div class="btn">
                     <a id="reserve-btn" type="button" href='/Reservation' >
                         <strong>RESERVATION</strong>

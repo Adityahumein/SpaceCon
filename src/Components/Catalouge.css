@@ -1,0 +1,58 @@
+.catalougeCard{
+    width: 150px;
+    background-color: transparent;
+    height: 200px;
+
+}
+
+.catalougeCard Img{
+    width: 300px;
+    height: 200px;
+    background: transparent;
+}
+
+
+.food-card {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background: linear-gradient(135deg, #0a1d37, #2c1a47, #5d2f6e);
+    transition: transform 0.3s ease-in-out;
+    margin: 10px;
+  }
+  
+  .food-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .food-card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+   
+  }
+  
+  .food-card-content {
+    padding: 20px;
+  }
+  
+  .food-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 0 10px;
+    color: white;
+  }
+  
+  .food-card-description {
+    font-size: 1rem;
+    color: #e9e9e9;
+    margin-bottom: 15px;
+  }
+  
+  .food-card-rating {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #ff9800;
+  }
+  
