@@ -49,7 +49,7 @@ const Body = () => {
                     <h1 className='ad1'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut quod totam quasi in! Odit labore eligendi architecto enim, libero tempore?</h1>
                 </div>
                 <div class="btn">
-                    <a id="reserve-btn" type="button" href='/Reservation' >
+                    <a id="reservebtn" type="button" href='/Reservation' >
                         <strong>RESERVATION</strong>
                         <div id="container-stars">
                             <div id="stars"></div>
@@ -61,7 +61,7 @@ const Body = () => {
                     </a>
                 </div>
       <div class="btn2">
-                    <a id="reserve-btn" type="button" href='/Menu'>
+                    <a id="reservebtn" type="button" href='/Menu'>
                         <strong>MENU</strong>
                         <div id="container-stars">
                             <div id="stars"></div>
@@ -73,7 +73,7 @@ const Body = () => {
                     </a>
                 </div>
       <div class="btn1">
-                    <a id="reserve-btn" type="button" href='/About-us'>
+                    <a id="reservebtn" type="button" href='/About-us'>
                         <strong>ABOUT US</strong>
                         <div id="container-stars">
                             <div id="stars"></div>
