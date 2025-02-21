@@ -2,6 +2,9 @@ import React,{useState,useEffect} from 'react'
 import "./Body.css"
 import { useScramble } from "use-scramble";
 import { TbUfo } from "react-icons/tb";
+import { motion } from 'framer-motion';
+import img1 from './img1.jpg'
+import ufo from './ufo.gif'
 const Body = () => {
     const [scrambledDone, setScrambledDone] = useState(false);
     const handleScrambleComplete = () => {
@@ -40,11 +43,12 @@ const Body = () => {
          )}
          {scrambledDone && (
             
-            <div className='Cluster2'>
-                <TbUfo className='TbUfo'/>
+            <div className='Cluster2'style={{backgroundImage:`url(${img1})`,backgroundAttachment:"fixed",backgroundPosition:"center",backgroundSize:"cover",minHeight:"100vh",width:"100vw"}}>
+                <motion.img animate={{top:0}} transition={{duration:3}} src={ufo} className='ufo'/>
+                
                 <div class="btn">
-                    <button id="reserve-btn" type="button">
-                        <strong>FIND A TABLE</strong>
+                    <a id="reserve-btn" type="button" href='/Reservation' >
+                        <strong>RESERVATION</strong>
                         <div id="container-stars">
                             <div id="stars"></div>
                         </div>
@@ -52,11 +56,11 @@ const Body = () => {
                             <div class="circle"></div>
                             <div class="circle"></div>
                         </div>
-                    </button>
+                    </a>
                 </div>
       <div class="btn2">
-                    <button id="reserve-btn" type="button">
-                        <strong>FIND A TABLE</strong>
+                    <a id="reserve-btn" type="button" href='/Menu'>
+                        <strong>MENU</strong>
                         <div id="container-stars">
                             <div id="stars"></div>
                         </div>
@@ -64,11 +68,11 @@ const Body = () => {
                             <div class="circle"></div>
                             <div class="circle"></div>
                         </div>
-                    </button>
+                    </a>
                 </div>
       <div class="btn1">
-                    <button id="reserve-btn" type="button">
-                        <strong>FIND A TABLE</strong>
+                    <a id="reserve-btn" type="button" href='/About-us'>
+                        <strong>ABOUT US</strong>
                         <div id="container-stars">
                             <div id="stars"></div>
                         </div>
@@ -76,7 +80,7 @@ const Body = () => {
                             <div class="circle"></div>
                             <div class="circle"></div>
                         </div>
-                    </button>
+                    </a>
                 </div>
             </div>
         )}

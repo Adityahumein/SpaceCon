@@ -1,11 +1,18 @@
 import React from 'react'
 import Body from './Body'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 const App = () => {
   return (
-    <div className='App' style={{backgroundImage:"url('https://wallpapershome.com/space/stars/stars-background-night-sky-colors-27046.html')",backgroundAttachment:"fixed",backgroundPosition:"center",backgroundSize:"cover",minHeight:"100vh",width:"100vw"}}>
-      <Body/>
+    <Router>
+    <div className='App' style={{background: 'linear-gradient(115deg, #000000, #444444)',minHeight:"100vh",width:"100vw"}}>
+        
+        <Routes>
+          <Route path="/" element={<Body />} />
+          
+        </Routes>
     </div>
+    </Router>
   )
 }
 

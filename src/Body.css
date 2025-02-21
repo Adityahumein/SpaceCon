@@ -8,14 +8,19 @@
     animation: back 3s;
     height: 100vh;
 }
-.TbUfo{
+.ufo{
     position: absolute;
-    color: white;
+    top: 60%;
+  height: 200px;
+  width: 300px;
 }
 .Cluster2{
+
     position: absolute;
+    display: flex;
+    justify-content: space-evenly;
     width: 100%;
-    height: 100vh;
+
 }
 .Maint{
     top: 50%;
@@ -43,10 +48,9 @@
 }
 /* btn1 */
 .btn{
-    position: absolute;
+    position: relative;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%,20%);
+    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,6 +58,7 @@
 }
 
 #reserve-btn{
+    text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -213,20 +218,18 @@ strong{
 }
 /* btn1 */
 .btn1{
-    position: absolute;
+    position: relative;
     top: 50%;
-    left: 80%;
-    transform: translate(0%,20%);
+    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top:20px;
 }
 .btn2{
-    position: absolute;
+    position: relative;
     top: 50%;
-    left: 0%;
-    transform: translate(50%,20%);
+    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
