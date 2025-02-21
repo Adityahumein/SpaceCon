@@ -6,8 +6,8 @@
 body{
    margin:0; 
    padding: 0;
-   font-family: futura;
-   background-image: url("stars.jpg");
+   font-family: 'futura';
+
    background-size:auto;
    background-position: center;
 }

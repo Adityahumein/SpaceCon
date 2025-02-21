@@ -11,7 +11,7 @@
     flex-wrap: wrap;  /* Allow wrapping on smaller screens */
     height: 100%;
     overflow-x: hidden;
-    background-image: url("../src/assets/backgroundimg.jpg");
+
 }
 
 .Ourstory-img {
